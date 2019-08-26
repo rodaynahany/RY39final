@@ -1,0 +1,76 @@
+body {
+       color:rgb(90,55,23);
+       font-family: arial;
+       margin: 0px;
+ }
+h1,h2{
+      text-align: center;
+}g
+
+h1 {
+    font-size: Sem;
+  }
+  .rody{border-radius: 50%;}
+ .rody{
+   display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+ }
+h4{
+  font-size:2.5em
+}
+ ul{
+   font-size: 3em;
+   align: centre;
+ }
+
+/*.align-left{
+  text-align: left;
+}*/
+
+.circle-img{
+  width: 300px;
+  height: 300px;
+    BORDER-RADIUS: 80%;
+    opacity: 1;
+    transition: .5s ease;
+backface-visibility: hidden;
+display: block;
+}
+ .cryingImg{
+  margin: auto;
+  display: block;
+}
+
+.middle{
+transition: .5s ease;
+opacity: 0;
+position: absolute;
+top: 50%;
+left: 50%;
+right: 50%;
+transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+text-align: center;
+}
+
+.photosContainer:hover .circle-img{
+    opacity: 0.3;
+}
+.photosContainer:hover .middle{
+  opacity: 0.5;
+}
+
+.text{
+background-color: red
+color: white;
+font-size: 16px;
+align-content: center;
+align-self: center;
+}
+
+#othersheader {
+  display: block;
+  text-align: : left;
+}

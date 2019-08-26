@@ -1,0 +1,26 @@
+body {
+       color:rgb(90,55,23);
+       font-family: arial;
+       margin: opx;
+ }
+h1,h2{
+      text-align: center;
+}
+
+h1 {
+    font-size: Sem;
+  }
+  .rody{border-radius: 50%;}
+ .rody{
+   display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+ }
+h4{
+  font-size:2.5em
+}
+ ul{
+   font-size: 3em;
+   align: centre;
+ }
